@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "terrform-assignment-tali-bucket-${var.environment}"
+  bucket = "terrform-assignment-jasin-bucket-${var.environment}"
   acl    = "private"
 
   tags = {
